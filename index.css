@@ -1,0 +1,56 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    font-size: 14px;
+}
+
+.navbar-custom{
+    background-color: #168ccc;
+    color: #FFF;
+}
+
+.navbar-custom a{
+    color: #FEFEFE;
+}
+
+.navbar-custom .navbar-toggle .icon-bar{
+   background-color: #FEFEFE;
+   border-color: #FEFEFE;
+}
+
+.navbar-custom .navbar-toggle {
+   border-color: #FEFEFE;
+}
+
+
+/* Home Page Carousel */
+
+header.carousel{
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
